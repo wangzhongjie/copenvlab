@@ -1,5 +1,5 @@
 # COpenVLab 复刻项目
-很久没写css了，有点手生
+
 ## 技术架构
 ![Vue3](https://img.shields.io/badge/Vue-3.5-42b883)
 ![Express](https://img.shields.io/badge/Express-5.1-68a063)
