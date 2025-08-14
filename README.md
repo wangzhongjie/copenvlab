@@ -82,7 +82,7 @@ pip install -r requirements.txt
 1. 数据结构：MongoDB文档模型见`backend-node/fn/db.js`
 2. 前端代理：`vue.config.js`已配置双向API代理
    - `/api/node` → Node服务（3001）
-   - `/api/python` → Python服务（8000）
+   - `/api/python` → Python服务（3002）
 
 
 ## deal页面已实现主要功能
