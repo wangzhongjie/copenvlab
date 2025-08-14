@@ -57,13 +57,17 @@ cd backend-python
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
+# 注：Node后端和Python后端可以二选一
 ```
 ### 启动项目
 #### 以Nodejs作为服务端
+```
 - 根目录下启动后端服务 npm run start:node
 - 根目录下启动前端服务 npm run start:frontend:node
-
+```
 #### 以Python作为服务端
+```
 - 根目录下启动后端服务 npm run start:python
 - 根目录下启动前端服务 npm run start:frontend:python
 ```
@@ -79,7 +83,7 @@ pip install -r requirements.txt
 2. 前端代理：`vue.config.js`已配置双向API代理
    - `/api/node` → Node服务（3001）
    - `/api/python` → Python服务（8000）
-'''
+
 
 ## deal页面已实现主要功能
 - 从后端获取数据
