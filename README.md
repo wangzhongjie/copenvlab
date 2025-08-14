@@ -15,7 +15,6 @@
 工具链：
   - 前端：Vue CLI + Webpack + Babel
   - 后端：Nodemon + Winston日志
-  - 协作：Postman + Jupyter
 ```
 
 ## 项目结构
@@ -41,14 +40,14 @@ copenvlab/
 
 ## 快速开始
 ### 克隆项目
-git clone https://github.com/wzjcool/copenvlab.git
-cd openvlab
+- git clone https://github.com/wzjcool/copenvlab.git
+- cd copenvlab
 
 ### 安装依赖
 ```bash
 # 前端
-根目录下 pnpm install
-cd frontend && pnpm install
+1. 根目录 pnpm install
+2. cd frontend && pnpm install
 
 # Node后端 
 cd backend-node && pnpm install
@@ -60,13 +59,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ### 启动项目
-# 以Nodejs作为服务端
-根目录下启动后端服务 npm run start:node
-根目录下启动前端服务 npm run start:frontend:node
+#### 以Nodejs作为服务端
+- 根目录下启动后端服务 npm run start:node
+- 根目录下启动前端服务 npm run start:frontend:node
 
-# 以Python作为服务端
-根目录下启动后端服务 npm run start:python
-根目录下启动前端服务 npm run start:frontend:python
+#### 以Python作为服务端
+- 根目录下启动后端服务 npm run start:python
+- 根目录下启动前端服务 npm run start:frontend:python
 ```
 
 ## 核心特性
