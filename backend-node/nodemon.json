@@ -1,0 +1,9 @@
+{
+  "watch": ["server.js", "fn/api.js", "fn/getAllKlineAndAllBkAttr.js", "fn/db.js", "fn/dbCommon.js"],
+  "ext": "js json",
+  "ignore": ["node_modules/", "../frontend/", "fn/tools.js", "logs/*.log", "temp/*"],
+  "delay": "2000",
+  "execMap": {
+    "js": "node --inspect"
+  }
+}
